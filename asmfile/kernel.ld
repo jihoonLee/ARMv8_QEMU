@@ -3,7 +3,6 @@ OUTPUT_ARCH(aarch64)
 TARGET(binary)
 
 STACKTOP = 0x51000000;
-
 SECTIONS
 {
 	. = 0x40010000;
@@ -13,4 +12,5 @@ SECTIONS
 
 	. = STACKTOP;
 	stacktop = .;
+
 }

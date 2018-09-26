@@ -1,4 +1,5 @@
 QEMU ARMv8 MemoryMap
+
 #define PHY_START       0x40000000
 #define PHYSTOP         (0x08000000 + PHY_START)
 
@@ -6,7 +7,6 @@ QEMU ARMv8 MemoryMap
 #define DEVBASE2        0x09000000
 #define DEVBASE3        0x0a000000
 #define DEV_MEM_SZ      0x01000000
-
 
 #define UART0           0x09000000
 #define UART_CLK        24000000    // Clock rate for UART
